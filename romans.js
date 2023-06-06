@@ -45,6 +45,7 @@ function init() {
 // UI directly. The JSON object contains the result (ok/nok), the value
 // and an error message if needed
 
+// eslint-disable-next-line no-undef
 gtag('event', 'PressingConvert', {
 'isInInteger': modeCheckbox.checked
 
