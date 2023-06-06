@@ -47,7 +47,7 @@ function init() {
 
 // eslint-disable-next-line no-undef
 gtag('event', 'PressingConvert', {
-'isInInteger': modeCheckbox.checked
+'isInInteger': modeCheckbox.checked,
 
 });
 
