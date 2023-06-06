@@ -36,6 +36,12 @@ function init() {
       alert(convertion.message);
     }
   });
+  
+// eslint-disable-next-line no-undef
+gtag('event', 'PressingConvert', {
+  'isInInteger': modeCheckbox.checked,
+
+});
 
 }
 
@@ -45,11 +51,7 @@ function init() {
 // UI directly. The JSON object contains the result (ok/nok), the value
 // and an error message if needed
 
-// eslint-disable-next-line no-undef
-gtag('event', 'PressingConvert', {
-  'isInInteger': modeCheckbox.checked,
 
-});
 
 
 const convertRomanToInteger = function(roman) {
