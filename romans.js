@@ -44,6 +44,13 @@ function init() {
 // On top of that, they return a JSON object instead of updating the
 // UI directly. The JSON object contains the result (ok/nok), the value
 // and an error message if needed
+
+gtag('event', 'PressingConvert', {
+'isInInteger': modeCheckbox.checked
+
+});
+
+
 const convertRomanToInteger = function(roman) {
 
   var response = {
